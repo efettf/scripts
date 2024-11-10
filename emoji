@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "$(sed '0,/^__DATA__$/d' "$0")" | dmenu | cut -d " " -f1 | wl-copy
+echo "$(sed '0,/^__DATA__$/d' "$0")" | dmenu | cut -d " " -f1 | tr "\n" " " | wl-copy
 
 exit
 

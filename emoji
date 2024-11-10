@@ -9,7 +9,6 @@ __DATA__
 😃 Smiling face with open mouth
 😄 Smiling face with open mouth and smiling eyes
 😁 Grinning face with smiling eyes
-😆 Smiling face with open mouth and tightly-closed eyes
 😅 Smiling face with open mouth and cold sweat
 😂 Face with tears of joy
 🤣 Rolling on the floor laughing
@@ -27,7 +26,6 @@ __DATA__
 😚 Kissing face with closed eyes
 😋 Face savouring delicious food
 😜 Face with stuck-out tongue and winking eye
-😝 Face with stuck-out tongue and tightly-closed eyes
 😛 Face with stuck-out tongue
 🤑 Money-mouth face
 🤗 Hugging face
@@ -124,7 +122,6 @@ __DATA__
 ✋ Raised hand
 🤚 Raised back of hand
 🖐 Raised hand with fingers splayed
-🖖 Raised hand with part between middle and ring fingers
 👋 Waving hand sign
 🤙 Call me hand
 💪 Flexed biceps
@@ -1056,11 +1053,8 @@ __DATA__
 🔢 Input symbol for numbers
 ▶️ Black right-pointing triangle
 ⏸ Double vertical bar
-⏯ Black right-pointing triangle with double vertical bar
 ⏹ Black square for stop
 ⏺ Black circle for record
-⏭ Black right-pointing double triangle with vertical bar
-⏮ Black left-pointing double triangle with vertical bar
 ⏩ Black right-pointing double triangle
 ⏪ Black left-pointing double triangle
 ⏫ Black up-pointing double triangle
@@ -1081,12 +1075,7 @@ __DATA__
 ↪️ Rightwards arrow with hook
 ↩️ Leftwards arrow with hook
 ⤴️ Arrow pointing rightwards then curving upwards
-⤵️ Arrow pointing rightwards then curving downwards
 🔀 Twisted rightwards arrows
-🔁 Clockwise rightwards and leftwards open circle arrows
-🔂 Clockwise rightwards and leftwards open circle arrows with circled one overlay
-🔄 Anticlockwise downwards and upwards open circle arrows
-🔃 Clockwise downwards and upwards open circle arrows
 🎵 Musical note
 🎶 Multiple musical notes
 ➕ Heavy plus sign
@@ -1103,7 +1092,6 @@ __DATA__
 ➿ Double curly loop
 🔚 End with leftwards arrow above
 🔙 Back with leftwards arrow above
-🔛 On with exclamation mark with left right arrow above
 🔝 Top with upwards arrow above
 🔜 Soon with rightwards arrow above
 ✔️ Heavy check mark

@@ -5,1573 +5,1174 @@ echo "$(sed '0,/^__DATA__$/d' "$0")" | dmenu | cut -d " " -f1 | tr "\n" " " | wl
 exit
 
 __DATA__
-😀 Grinning Face
-😃 Grinning Face with Big Eyes
-😄 Grinning Face with Smiling Eyes
-😁 Beaming Face with Smiling Eyes
-😆 Grinning Squinting Face
-😅 Grinning Face with Sweat
-🤣 Rolling on the Floor Laughing
-😂 Face with Tears of Joy
-🙂 Slightly Smiling Face
-🙃 Upside-Down Face
-😉 Winking Face
-😊 Smiling Face with Smiling Eyes
-😇 Smiling Face with Halo
-🥰 Smiling Face with Hearts
-😍 Smiling Face with Heart-Eyes
-🤩 Star-Struck
-😘 Face Blowing a Kiss
-😗 Kissing Face
-☺️ Smiling Face
-😚 Kissing Face with Closed Eyes
-😙 Kissing Face with Smiling Eyes
-🥲 Smiling Face with Tear
-😋 Face Savoring Food
-😛 Face with Tongue
-😜 Winking Face with Tongue
-🤪 Zany Face
-😝 Squinting Face with Tongue
-🤑 Money-Mouth Face
-🤗 Hugging Face
-🤭 Face with Hand Over Mouth
-🤫 Shushing Face
-🤔 Thinking Face
-🤐 Zipper-Mouth Face
-🤨 Face with Raised Eyebrow
-😐 Neutral Face
-😑 Expressionless Face
-😶 Face Without Mouth
-😏 Smirking Face
-😒 Unamused Face
-🙄 Face with Rolling Eyes
-😬 Grimacing Face
-🤥 Lying Face
-😌 Relieved Face
-😔 Pensive Face
-😪 Sleepy Face
-🤤 Drooling Face
-😴 Sleeping Face
-😷 Face with Medical Mask
-🤒 Face with Thermometer
-🤕 Face with Head-Bandage
-🤢 Nauseated Face
-🤮 Face Vomiting
-🤧 Sneezing Face
-🥵 Hot Face
-🥶 Cold Face
-🥴 Woozy Face
-😵 Dizzy Face
-🤯 Exploding Head
-🤠 Cowboy Hat Face
-🥳 Partying Face
-🥸 Disguised Face
-😎 Smiling Face with Sunglasses
-🤓 Nerd Face
-🧐 Face with Monocle
-😕 Confused Face
-😟 Worried Face
-🙁 Slightly Frowning Face
-☹️ Frowning Face
-😮 Face with Open Mouth
-😯 Hushed Face
-😲 Astonished Face
-😳 Flushed Face
-🥺 Pleading Face
-😦 Frowning Face with Open Mouth
-😧 Anguished Face
-😨 Fearful Face
-😰 Anxious Face with Sweat
-😥 Sad but Relieved Face
-😢 Crying Face
-😭 Loudly Crying Face
-😱 Face Screaming in Fear
-😖 Confounded Face
-😣 Persevering Face
-😞 Disappointed Face
-😓 Downcast Face with Sweat
-😩 Weary Face
-😫 Tired Face
-🥱 Yawning Face
-😤 Face with Steam From Nose
-😡 Pouting Face
-😠 Angry Face
-🤬 Face with Symbols on Mouth
-😈 Smiling Face with Horns
-👿 Angry Face with Horns
-💀 Skull
-☠️ Skull and Crossbones
-💩 Pile of Poo
-🤡 Clown Face
-👹 Ogre
-👺 Goblin
+😀 Grinning face
+😃 Smiling face with open mouth
+😄 Smiling face with open mouth and smiling eyes
+😁 Grinning face with smiling eyes
+😆 Smiling face with open mouth and tightly-closed eyes
+😅 Smiling face with open mouth and cold sweat
+😂 Face with tears of joy
+🤣 Rolling on the floor laughing
+☺️ White smiling face, variation selector-16
+😊 Smiling face with smiling eyes
+😇 Smiling face with halo
+🙂 Slightly smiling face
+🙃 Upside-down face
+😉 Winking face
+😌 Relieved face
+😍 Smiling face with heart-shaped eyes
+😘 Face throwing a kiss
+😗 Kissing face
+😙 Kissing face with smiling eyes
+😚 Kissing face with closed eyes
+😋 Face savouring delicious food
+😜 Face with stuck-out tongue and winking eye
+😝 Face with stuck-out tongue and tightly-closed eyes
+😛 Face with stuck-out tongue
+🤑 Money-mouth face
+🤗 Hugging face
+🤓 Nerd face
+😎 Smiling face with sunglasses
+🤡 Clown face
+🤠 Face with cowboy hat
+😏 Smirking face
+😒 Unamused face
+😞 Disappointed face
+😔 Pensive face
+😟 Worried face
+😕 Confused face
+🙁 Slightly frowning face
+☹️ White frowning face, variation selector-16
+😣 Persevering face
+😖 Confounded face
+😫 Tired face
+😩 Weary face
+😤 Face with look of triumph
+😠 Angry face
+😡 Pouting face
+😶 Face without mouth
+😐 Neutral face
+😑 Expressionless face
+😯 Hushed face
+😦 Frowning face with open mouth
+😧 Anguished face
+😮 Face with open mouth
+😲 Astonished face
+😵 Dizzy face
+😳 Flushed face
+😱 Face screaming in fear
+😨 Fearful face
+😰 Face with open mouth and cold sweat
+😢 Crying face
+😥 Disappointed but relieved face
+🤤 Drooling face
+😭 Loudly crying face
+😓 Face with cold sweat
+😪 Sleepy face
+😴 Sleeping face
+🙄 Face with rolling eyes
+🤔 Thinking face
+🤥 Lying face
+😬 Grimacing face
+🤐 Zipper-mouth face
+🤢 Nauseated face
+🤧 Sneezing face
+😷 Face with medical mask
+🤒 Face with thermometer
+🤕 Face with head-bandage
+😈 Smiling face with horns
+👿 Imp
+👹 Japanese ogre
+👺 Japanese goblin
+💩 Pile of poo
 👻 Ghost
-👽 Alien
-👾 Alien Monster
-🤖 Robot
-😺 Grinning Cat
-😸 Grinning Cat with Smiling Eyes
-😹 Cat with Tears of Joy
-😻 Smiling Cat with Heart-Eyes
-😼 Cat with Wry Smile
-😽 Kissing Cat
-🙀 Weary Cat
-😿 Crying Cat
-😾 Pouting Cat
-💋 Kiss Mark
-👋 Waving Hand
-🤚 Raised Back of Hand
-🖐️ Hand with Fingers Splayed
-✋ Raised Hand
-🖖 Vulcan Salute
-👌 OK Hand
-🤌 Pinched Fingers
-🤏 Pinching Hand
-✌️ Victory Hand
-🤞 Crossed Fingers
-🤟 Love-You Gesture
-🤘 Sign of the Horns
-🤙 Call Me Hand
-👈 Backhand Index Pointing Left
-👉 Backhand Index Pointing Right
-👆 Backhand Index Pointing Up
-🖕 Middle Finger
-👇 Backhand Index Pointing Down
-☝️ Index Pointing Up
-👍 Thumbs Up
-👎 Thumbs Down
-✊ Raised Fist
-👊 Oncoming Fist
-🤛 Left-Facing Fist
-🤜 Right-Facing Fist
-👏 Clapping Hands
-🙌 Raising Hands
-👐 Open Hands
-🤲 Palms Up Together
+💀 Skull
+☠️ Skull and crossbones, variation selector-16
+👽 Extraterrestrial alien
+👾 Alien monster
+🤖 Robot face
+🎃 Jack-o-lantern
+😺 Smiling cat face with open mouth
+😸 Grinning cat face with smiling eyes
+😹 Cat face with tears of joy
+😻 Smiling cat face with heart-shaped eyes
+😼 Cat face with wry smile
+😽 Kissing cat face with closed eyes
+🙀 Weary cat face
+😿 Crying cat face
+😾 Pouting cat face
+👐 Open hands sign
+🙌 Person raising both hands in celebration
+👏 Clapping hands sign
+🙏 Person with folded hands
 🤝 Handshake
-🙏 Folded Hands
-✍️ Writing Hand
-💅 Nail Polish
+👍 Thumbs up sign
+👎 Thumbs down sign
+👊 Fisted hand sign
+✊ Raised fist
+🤛 Left-facing fist
+🤜 Right-facing fist
+🤞 Hand with index and middle fingers crossed
+✌️ Victory hand, variation selector-16
+🤘 Sign of the horns
+👌 Ok hand sign
+👈 White left pointing backhand index
+👉 White right pointing backhand index
+👆 White up pointing backhand index
+👇 White down pointing backhand index
+☝️ White up pointing index, variation selector-16
+✋ Raised hand
+🤚 Raised back of hand
+🖐 Raised hand with fingers splayed
+🖖 Raised hand with part between middle and ring fingers
+👋 Waving hand sign
+🤙 Call me hand
+💪 Flexed biceps
+🖕 Reversed hand with middle finger extended
+✍️ Writing hand, variation selector-16
 🤳 Selfie
-💪 Flexed Biceps
-🦾 Mechanical Arm
-🦿 Mechanical Leg
-🦵 Leg
-🦶 Foot
-👂 Ear
-🦻 Ear with Hearing Aid
-👃 Nose
-🧠 Brain
-🫀 Anatomical Heart
-🫁 Lungs
-🦷 Tooth
-🦴 Bone
-👀 Eyes
-👁️ Eye
-👅 Tongue
+💅 Nail polish
+💍 Ring
+💄 Lipstick
+💋 Kiss mark
 👄 Mouth
+👅 Tongue
+👂 Ear
+👃 Nose
+👣 Footprints
+👁 Eye
+👀 Eyes
+🗣 Speaking head in silhouette
+👤 Bust in silhouette
+👥 Busts in silhouette
 👶 Baby
-🧒 Child
 👦 Boy
 👧 Girl
-🧑 Person
-👱 Person: Blond Hair
 👨 Man
-🧔 Person: Beard
-👨‍🦰 Man: Red Hair
-👨‍🦱 Man: Curly Hair
-👨‍🦳 Man: White Hair
-👨‍🦲 Man: Bald
 👩 Woman
-👩‍🦰 Woman: Red Hair
-🧑‍🦰 Person: Red Hair
-👩‍🦱 Woman: Curly Hair
-🧑‍🦱 Person: Curly Hair
-👩‍🦳 Woman: White Hair
-🧑‍🦳 Person: White Hair
-👩‍🦲 Woman: Bald
-🧑‍🦲 Person: Bald
-👱‍♀️ Woman: Blond Hair
-👱‍♂️ Man: Blond Hair
-🧓 Older Person
-👴 Old Man
-👵 Old Woman
-🙍 Person Frowning
-🙍‍♂️ Man Frowning
-🙍‍♀️ Woman Frowning
-🙎 Person Pouting
-🙎‍♂️ Man Pouting
-🙎‍♀️ Woman Pouting
-🙅 Person Gesturing No
-🙅‍♂️ Man Gesturing No
-🙅‍♀️ Woman Gesturing No
-🙆 Person Gesturing OK
-🙆‍♂️ Man Gesturing OK
-🙆‍♀️ Woman Gesturing OK
-💁 Person Tipping Hand
-💁‍♂️ Man Tipping Hand
-💁‍♀️ Woman Tipping Hand
-🙋 Person Raising Hand
-🙋‍♂️ Man Raising Hand
-🙋‍♀️ Woman Raising Hand
-🧏 Deaf Person
-🧏‍♂️ Deaf Man
-🧏‍♀️ Deaf Woman
-🙇 Person Bowing
-🙇‍♂️ Man Bowing
-🙇‍♀️ Woman Bowing
-🤦 Person Facepalming
-🤦‍♂️ Man Facepalming
-🤦‍♀️ Woman Facepalming
-🤷 Person Shrugging
-🤷‍♂️ Man Shrugging
-🤷‍♀️ Woman Shrugging
-🧑‍⚕️ Health Worker
-👨‍⚕️ Man Health Worker
-👩‍⚕️ Woman Health Worker
-🧑‍🎓 Student
-👨‍🎓 Man Student
-👩‍🎓 Woman Student
-🧑‍🏫 Teacher
-👨‍🏫 Man Teacher
-👩‍🏫 Woman Teacher
-🧑‍⚖️ Judge
-👨‍⚖️ Man Judge
-👩‍⚖️ Woman Judge
-🧑‍🌾 Farmer
-👨‍🌾 Man Farmer
-👩‍🌾 Woman Farmer
-🧑‍🍳 Cook
-👨‍🍳 Man Cook
-👩‍🍳 Woman Cook
-🧑‍🔧 Mechanic
-👨‍🔧 Man Mechanic
-👩‍🔧 Woman Mechanic
-🧑‍🏭 Factory Worker
-👨‍🏭 Man Factory Worker
-👩‍🏭 Woman Factory Worker
-🧑‍💼 Office Worker
-👨‍💼 Man Office Worker
-👩‍💼 Woman Office Worker
-🧑‍🔬 Scientist
-👨‍🔬 Man Scientist
-👩‍🔬 Woman Scientist
-🧑‍💻 Technologist
-👨‍💻 Man Technologist
-👩‍💻 Woman Technologist
-🧑‍🎤 Singer
-👨‍🎤 Man Singer
-👩‍🎤 Woman Singer
-🧑‍🎨 Artist
-👨‍🎨 Man Artist
-👩‍🎨 Woman Artist
-🧑‍✈️ Pilot
-👨‍✈️ Man Pilot
-👩‍✈️ Woman Pilot
-🧑‍🚀 Astronaut
-👨‍🚀 Man Astronaut
-👩‍🚀 Woman Astronaut
-🧑‍🚒 Firefighter
-👨‍🚒 Man Firefighter
-👩‍🚒 Woman Firefighter
-👮 Police Officer
-👮‍♂️ Man Police Officer
-👮‍♀️ Woman Police Officer
-🕵️ Detective
-🕵️‍♂️ Man Detective
-🕵️‍♀️ Woman Detective
-💂 Guard
-💂‍♂️ Man Guard
-💂‍♀️ Woman Guard
-🥷 Ninja
-👷 Construction Worker
-👷‍♂️ Man Construction Worker
-👷‍♀️ Woman Construction Worker
-🤴 Prince
+👱 Person with blond hair, zero width joiner, female sign, variation selector-16
+👱 Person with blond hair
+👴 Older man
+👵 Older woman
+👲 Man with gua pi mao
+👳 Man with turban, zero width joiner, female sign, variation selector-16
+👳 Man with turban
+👮 Police officer, zero width joiner, female sign, variation selector-16
+👮 Police officer
+👷 Construction worker, zero width joiner, female sign, variation selector-16
+👷 Construction worker
+💂 Guardsman, zero width joiner, female sign, variation selector-16
+💂 Guardsman
+🕵️ Sleuth or spy, variation selector-16, zero width joiner, female sign, variation selector-16
+🕵️ Sleuth or spy, variation selector-16
+👩 Woman, zero width joiner, staff of aesculapius, variation selector-16
+👨 Man, zero width joiner, staff of aesculapius, variation selector-16
+👩 Woman, zero width joiner, ear of rice
+👨 Man, zero width joiner, ear of rice
+👩 Woman, zero width joiner, cooking
+👨 Man, zero width joiner, cooking
+👩 Woman, zero width joiner, graduation cap
+👨 Man, zero width joiner, graduation cap
+👩 Woman, zero width joiner, microphone
+👨 Man, zero width joiner, microphone
+👩 Woman, zero width joiner, school
+👨 Man, zero width joiner, school
+👩 Woman, zero width joiner, factory
+👨 Man, zero width joiner, factory
+👩 Woman, zero width joiner, personal computer
+👨 Man, zero width joiner, personal computer
+👩 Woman, zero width joiner, briefcase
+👨 Man, zero width joiner, briefcase
+👩 Woman, zero width joiner, wrench
+👨 Man, zero width joiner, wrench
+👩 Woman, zero width joiner, microscope
+👨 Man, zero width joiner, microscope
+👩 Woman, zero width joiner, artist palette
+👨 Man, zero width joiner, artist palette
+👩 Woman, zero width joiner, fire engine
+👨 Man, zero width joiner, fire engine
+👩 Woman, zero width joiner, airplane, variation selector-16
+👨 Man, zero width joiner, airplane, variation selector-16
+👩 Woman, zero width joiner, rocket
+👨 Man, zero width joiner, rocket
+👩 Woman, zero width joiner, scales, variation selector-16
+👨 Man, zero width joiner, scales, variation selector-16
+🤶 Mother christmas
+🎅 Father christmas
 👸 Princess
-👳 Person Wearing Turban
-👳‍♂️ Man Wearing Turban
-👳‍♀️ Woman Wearing Turban
-👲 Person With Skullcap
-🧕 Woman with Headscarf
-🤵 Person in Tuxedo
-🤵‍♂️ Man in Tuxedo
-🤵‍♀️ Woman in Tuxedo
-👰 Person With Veil
-👰‍♂️ Man with Veil
-👰‍♀️ Woman with Veil
-🤰 Pregnant Woman
-🤱 Breast-Feeding
-👩‍🍼 Woman Feeding Baby
-👨‍🍼 Man Feeding Baby
-🧑‍🍼 Person Feeding Baby
-👼 Baby Angel
-🎅 Santa Claus
-🤶 Mrs. Claus
-🧑‍🎄 Mx Claus
-🦸 Superhero
-🦸‍♂️ Man Superhero
-🦸‍♀️ Woman Superhero
-🦹 Supervillain
-🦹‍♂️ Man Supervillain
-🦹‍♀️ Woman Supervillain
-🧙 Mage
-🧙‍♂️ Man Mage
-🧙‍♀️ Woman Mage
-🧚 Fairy
-🧚‍♂️ Man Fairy
-🧚‍♀️ Woman Fairy
-🧛 Vampire
-🧛‍♂️ Man Vampire
-🧛‍♀️ Woman Vampire
-🧜 Merperson
-🧜‍♂️ Merman
-🧜‍♀️ Mermaid
-🧝 Elf
-🧝‍♂️ Man Elf
-🧝‍♀️ Woman Elf
-🧞 Genie
-🧞‍♂️ Man Genie
-🧞‍♀️ Woman Genie
-🧟 Zombie
-🧟‍♂️ Man Zombie
-🧟‍♀️ Woman Zombie
-💆 Person Getting Massage
-💆‍♂️ Man Getting Massage
-💆‍♀️ Woman Getting Massage
-💇 Person Getting Haircut
-💇‍♂️ Man Getting Haircut
-💇‍♀️ Woman Getting Haircut
-🚶 Person Walking
-🚶‍♂️ Man Walking
-🚶‍♀️ Woman Walking
-🧍 Person Standing
-🧍‍♂️ Man Standing
-🧍‍♀️ Woman Standing
-🧎 Person Kneeling
-🧎‍♂️ Man Kneeling
-🧎‍♀️ Woman Kneeling
-🧑‍🦯 Person with White Cane
-👨‍🦯 Man with White Cane
-👩‍🦯 Woman with White Cane
-🧑‍🦼 Person in Motorized Wheelchair
-👨‍🦼 Man in Motorized Wheelchair
-👩‍🦼 Woman in Motorized Wheelchair
-🧑‍🦽 Person in Manual Wheelchair
-👨‍🦽 Man in Manual Wheelchair
-👩‍🦽 Woman in Manual Wheelchair
-🏃 Person Running
-🏃‍♂️ Man Running
-🏃‍♀️ Woman Running
-💃 Woman Dancing
-🕺 Man Dancing
-🕴️ Person in Suit Levitating
-👯 People with Bunny Ears
-👯‍♂️ Men with Bunny Ears
-👯‍♀️ Women with Bunny Ears
-🧖 Person in Steamy Room
-🧖‍♂️ Man in Steamy Room
-🧖‍♀️ Woman in Steamy Room
-🧘 Person in Lotus Position
-🧑‍🤝‍🧑 People Holding Hands
-👭 Women Holding Hands
-👫 Woman and Man Holding Hands
-👬 Men Holding Hands
+🤴 Prince
+👰 Bride with veil
+🤵 Man in tuxedo
+👼 Baby angel
+🤰 Pregnant woman
+🙇 Person bowing deeply, zero width joiner, female sign, variation selector-16
+🙇 Person bowing deeply
+💁 Information desk person
+💁 Information desk person, zero width joiner, male sign, variation selector-16
+🙅 Face with no good gesture
+🙅 Face with no good gesture, zero width joiner, male sign, variation selector-16
+🙆 Face with ok gesture
+🙆 Face with ok gesture, zero width joiner, male sign, variation selector-16
+🙋 Happy person raising one hand
+🙋 Happy person raising one hand, zero width joiner, male sign, variation selector-16
+🤦 Face palm, zero width joiner, female sign, variation selector-16
+🤦 Face palm, zero width joiner, male sign, variation selector-16
+🤷 Shrug, zero width joiner, female sign, variation selector-16
+🤷 Shrug, zero width joiner, male sign, variation selector-16
+🙎 Person with pouting face
+🙎 Person with pouting face, zero width joiner, male sign, variation selector-16
+🙍 Person frowning
+🙍 Person frowning, zero width joiner, male sign, variation selector-16
+💇 Haircut
+💇 Haircut, zero width joiner, male sign, variation selector-16
+💆 Face massage
+💆 Face massage, zero width joiner, male sign, variation selector-16
+🕴 Man in business suit levitating
+💃 Dancer
+🕺 Man dancing
+👯 Woman with bunny ears
+👯 Woman with bunny ears, zero width joiner, male sign, variation selector-16
+🚶 Pedestrian, zero width joiner, female sign, variation selector-16
+🚶 Pedestrian
+🏃 Runner, zero width joiner, female sign, variation selector-16
+🏃 Runner
+👫 Man and woman holding hands
+👭 Two women holding hands
+👬 Two men holding hands
+💑 Couple with heart
+👩 Woman, zero width joiner, heavy black heart, variation selector-16, zero width joiner, woman
+👨 Man, zero width joiner, heavy black heart, variation selector-16, zero width joiner, man
 💏 Kiss
-👩‍❤️‍💋‍👨 Kiss: Woman, Man
-👨‍❤️‍💋‍👨 Kiss: Man, Man
-👩‍❤️‍💋‍👩 Kiss: Woman, Woman
-💑 Couple with Heart
-👩‍❤️‍👨 Couple with Heart: Woman, Man
-👨‍❤️‍👨 Couple with Heart: Man, Man
-👩‍❤️‍👩 Couple with Heart: Woman, Woman
+👩 Woman, zero width joiner, heavy black heart, variation selector-16, zero width joiner, kiss mark, zero width joiner, woman
+👨 Man, zero width joiner, heavy black heart, variation selector-16, zero width joiner, kiss mark, zero width joiner, man
 👪 Family
-👨‍👩‍👦 Family: Man, Woman, Boy
-👨‍👩‍👧 Family: Man, Woman, Girl
-👨‍👩‍👧‍👦 Family: Man, Woman, Girl, Boy
-👨‍👩‍👦‍👦 Family: Man, Woman, Boy, Boy
-👨‍👩‍👧‍👧 Family: Man, Woman, Girl, Girl
-👨‍👨‍👦 Family: Man, Man, Boy
-👨‍👨‍👧 Family: Man, Man, Girl
-👨‍👨‍👧‍👦 Family: Man, Man, Girl, Boy
-👨‍👨‍👦‍👦 Family: Man, Man, Boy, Boy
-👨‍👨‍👧‍👧 Family: Man, Man, Girl, Girl
-👩‍👩‍👦 Family: Woman, Woman, Boy
-👩‍👩‍👧 Family: Woman, Woman, Girl
-👩‍👩‍👧‍👦 Family: Woman, Woman, Girl, Boy
-👩‍👩‍👦‍👦 Family: Woman, Woman, Boy, Boy
-👩‍👩‍👧‍👧 Family: Woman, Woman, Girl, Girl
-👨‍👦 Family: Man, Boy
-👨‍👦‍👦 Family: Man, Boy, Boy
-👨‍👧 Family: Man, Girl
-👨‍👧‍👦 Family: Man, Girl, Boy
-👨‍👧‍👧 Family: Man, Girl, Girl
-👩‍👦 Family: Woman, Boy
-👩‍👦‍👦 Family: Woman, Boy, Boy
-👩‍👧 Family: Woman, Girl
-👩‍👧‍👦 Family: Woman, Girl, Boy
-👩‍👧‍👧 Family: Woman, Girl, Girl
-🗣️ Speaking Head
-👤 Bust in Silhouette
-👥 Busts in Silhouette
-🫂 People Hugging
-👣 Footprints
-🧳 Luggage
-🌂 Closed Umbrella
-☂️ Umbrella
-🎃 Jack-O-Lantern
-🧵 Thread
-🧶 Yarn
-👓 Glasses
-🕶️ Sunglasses
-🥽 Goggles
-🥼 Lab Coat
-🦺 Safety Vest
-👔 Necktie
-👕 T-Shirt
+👨 Man, zero width joiner, woman, zero width joiner, girl
+👨 Man, zero width joiner, woman, zero width joiner, girl, zero width joiner, boy
+👨 Man, zero width joiner, woman, zero width joiner, boy, zero width joiner, boy
+👨 Man, zero width joiner, woman, zero width joiner, girl, zero width joiner, girl
+👩 Woman, zero width joiner, woman, zero width joiner, boy
+👩 Woman, zero width joiner, woman, zero width joiner, girl
+👩 Woman, zero width joiner, woman, zero width joiner, girl, zero width joiner, boy
+👩 Woman, zero width joiner, woman, zero width joiner, boy, zero width joiner, boy
+👩 Woman, zero width joiner, woman, zero width joiner, girl, zero width joiner, girl
+👨 Man, zero width joiner, man, zero width joiner, boy
+👨 Man, zero width joiner, man, zero width joiner, girl
+👨 Man, zero width joiner, man, zero width joiner, girl, zero width joiner, boy
+👨 Man, zero width joiner, man, zero width joiner, boy, zero width joiner, boy
+👨 Man, zero width joiner, man, zero width joiner, girl, zero width joiner, girl
+👩 Woman, zero width joiner, boy
+👩 Woman, zero width joiner, girl
+👩 Woman, zero width joiner, girl, zero width joiner, boy
+👩 Woman, zero width joiner, boy, zero width joiner, boy
+👩 Woman, zero width joiner, girl, zero width joiner, girl
+👨 Man, zero width joiner, boy
+👨 Man, zero width joiner, girl
+👨 Man, zero width joiner, girl, zero width joiner, boy
+👨 Man, zero width joiner, boy, zero width joiner, boy
+👨 Man, zero width joiner, girl, zero width joiner, girl
+👚 Womans clothes
+👕 T-shirt
 👖 Jeans
-🧣 Scarf
-🧤 Gloves
-🧥 Coat
-🧦 Socks
+👔 Necktie
 👗 Dress
-👘 Kimono
-🥻 Sari
-🩱 One-Piece Swimsuit
-🩲 Briefs
-🩳 Shorts
 👙 Bikini
-👚 Woman’s Clothes
+👘 Kimono
+👠 High-heeled shoe
+👡 Womans sandal
+👢 Womans boots
+👞 Mans shoe
+👟 Athletic shoe
+👒 Womans hat
+🎩 Top hat
+🎓 Graduation cap
+👑 Crown
+⛑ Helmet with white cross
+🎒 School satchel
+👝 Pouch
 👛 Purse
 👜 Handbag
-👝 Clutch Bag
-🎒 Backpack
-🩴 Thong Sandal
-👞 Man’s Shoe
-👟 Running Shoe
-🥾 Hiking Boot
-🥿 Flat Shoe
-👠 High-Heeled Shoe
-👡 Woman’s Sandal
-🩰 Ballet Shoes
-👢 Woman’s Boot
-👑 Crown
-👒 Woman’s Hat
-🎩 Top Hat
-🎓 Graduation Cap
-🧢 Billed Cap
-🪖 Military Helmet
-⛑️ Rescue Worker’s Helmet
-💄 Lipstick
-💍 Ring
 💼 Briefcase
-🩸 Drop of Blood
-😮‍💨 Face Exhaling
-😵‍💫 Face with Spiral Eyes
-😶‍🌫️ Face in Clouds
-🙈 See-No-Evil Monkey
-🙉 Hear-No-Evil Monkey
-🙊 Speak-No-Evil Monkey
-💥 Collision
-💫 Dizzy
-💦 Sweat Droplets
-💨 Dashing Away
-🐵 Monkey Face
-🐒 Monkey
-🦍 Gorilla
-🦧 Orangutan
-🐶 Dog Face
-🐕 Dog
-🦮 Guide Dog
-🐕‍🦺 Service Dog
-🐩 Poodle
-🐺 Wolf
-🦊 Fox
-🦝 Raccoon
-🐱 Cat Face
-🐈 Cat
-🐈‍⬛ Black Cat
-🦁 Lion
-🐯 Tiger Face
-🐅 Tiger
-🐆 Leopard
-🐴 Horse Face
-🐎 Horse
-🦄 Unicorn
-🦓 Zebra
-🦌 Deer
-🦬 Bison
-🐮 Cow Face
-🐂 Ox
-🐃 Water Buffalo
-🐄 Cow
-🐷 Pig Face
-🐖 Pig
-🐗 Boar
-🐽 Pig Nose
-🐏 Ram
-🐑 Ewe
-🐐 Goat
-🐪 Camel
-🐫 Two-Hump Camel
-🦙 Llama
-🦒 Giraffe
-🐘 Elephant
-🦣 Mammoth
-🦏 Rhinoceros
-🦛 Hippopotamus
-🐭 Mouse Face
-🐁 Mouse
-🐀 Rat
-🐹 Hamster
-🐰 Rabbit Face
-🐇 Rabbit
-🐿️ Chipmunk
-🦫 Beaver
-🦔 Hedgehog
-🦇 Bat
-🐻 Bear
-🐻‍❄️ Polar Bear
-🐨 Koala
-🐼 Panda
-🦥 Sloth
-🦦 Otter
-🦨 Skunk
-🦘 Kangaroo
-🦡 Badger
-🐾 Paw Prints
-🦃 Turkey
-🐔 Chicken
-🐓 Rooster
-🐣 Hatching Chick
-🐤 Baby Chick
-🐥 Front-Facing Baby Chick
-🐦 Bird
-🐧 Penguin
-🕊️ Dove
-🦅 Eagle
-🦆 Duck
-🦢 Swan
-🦉 Owl
-🦤 Dodo
-🪶 Feather
-🦩 Flamingo
-🦚 Peacock
-🦜 Parrot
-🐸 Frog
-🐊 Crocodile
-🐢 Turtle
-🦎 Lizard
-🐍 Snake
-🐲 Dragon Face
-🐉 Dragon
-🦕 Sauropod
-🦖 T-Rex
-🐳 Spouting Whale
-🐋 Whale
-🐬 Dolphin
-🦭 Seal
-🐟 Fish
-🐠 Tropical Fish
-🐡 Blowfish
-🦈 Shark
-🐙 Octopus
-🐚 Spiral Shell
-🐌 Snail
-🦋 Butterfly
-🐛 Bug
-🐜 Ant
-🐝 Honeybee
-🪲 Beetle
-🐞 Lady Beetle
-🦗 Cricket
-🪳 Cockroach
-🕷️ Spider
-🕸️ Spider Web
-🦂 Scorpion
-🦟 Mosquito
-🪰 Fly
-🪱 Worm
-🦠 Microbe
-💐 Bouquet
-🌸 Cherry Blossom
-💮 White Flower
-🏵️ Rosette
-🌹 Rose
-🥀 Wilted Flower
-🌺 Hibiscus
-🌻 Sunflower
-🌼 Blossom
-🌷 Tulip
-🌱 Seedling
-🪴 Potted Plant
-🌲 Evergreen Tree
-🌳 Deciduous Tree
-🌴 Palm Tree
-🌵 Cactus
-🌾 Sheaf of Rice
-🌿 Herb
-☘️ Shamrock
-🍀 Four Leaf Clover
-🍁 Maple Leaf
-🍂 Fallen Leaf
-🍃 Leaf Fluttering in Wind
-🍄 Mushroom
-🌰 Chestnut
-🦀 Crab
-🦞 Lobster
-🦐 Shrimp
-🦑 Squid
-🌍 Globe Showing Europe-Africa
-🌎 Globe Showing Americas
-🌏 Globe Showing Asia-Australia
-🌐 Globe with Meridians
-🪨 Rock
-🌑 New Moon
-🌒 Waxing Crescent Moon
-🌓 First Quarter Moon
-🌔 Waxing Gibbous Moon
-🌕 Full Moon
-🌖 Waning Gibbous Moon
-🌗 Last Quarter Moon
-🌘 Waning Crescent Moon
-🌙 Crescent Moon
-🌚 New Moon Face
-🌛 First Quarter Moon Face
-🌜 Last Quarter Moon Face
-☀️ Sun
-🌝 Full Moon Face
-🌞 Sun with Face
-⭐ Star
-🌟 Glowing Star
-🌠 Shooting Star
-☁️ Cloud
-⛅ Sun Behind Cloud
-⛈️ Cloud with Lightning and Rain
-🌤️ Sun Behind Small Cloud
-🌥️ Sun Behind Large Cloud
-🌦️ Sun Behind Rain Cloud
-🌧️ Cloud with Rain
-🌨️ Cloud with Snow
-🌩️ Cloud with Lightning
-🌪️ Tornado
-🌫️ Fog
-🌬️ Wind Face
-🌈 Rainbow
-☂️ Umbrella
-☔ Umbrella with Rain Drops
-⚡ High Voltage
-❄️ Snowflake
-☃️ Snowman
-⛄ Snowman Without Snow
-☄️ Comet
-🔥 Fire
-💧 Droplet
-🌊 Water Wave
-🎄 Christmas Tree
-✨ Sparkles
-🎋 Tanabata Tree
-🎍 Pine Decoration
-🍇 Grapes
-🍈 Melon
-🍉 Watermelon
-🍊 Tangerine
-🍋 Lemon
-🍌 Banana
-🍍 Pineapple
-🥭 Mango
-🍎 Red Apple
-🍏 Green Apple
-🍐 Pear
-🍑 Peach
-🍒 Cherries
-🍓 Strawberry
-🫐 Blueberries
-🥝 Kiwi Fruit
-🍅 Tomato
-🫒 Olive
-🥥 Coconut
-🥑 Avocado
-🍆 Eggplant
-🥔 Potato
-🥕 Carrot
-🌽 Ear of Corn
-🌶️ Hot Pepper
-🫑 Bell Pepper
-🥒 Cucumber
-🥬 Leafy Green
-🥦 Broccoli
-🧄 Garlic
-🧅 Onion
-🍄 Mushroom
-🥜 Peanuts
-🌰 Chestnut
-🍞 Bread
-🥐 Croissant
-🥖 Baguette Bread
-🫓 Flatbread
-🥨 Pretzel
-🥯 Bagel
-🥞 Pancakes
-🧇 Waffle
-🧀 Cheese Wedge
-🍖 Meat on Bone
-🍗 Poultry Leg
-🥩 Cut of Meat
-🥓 Bacon
-🍔 Hamburger
-🍟 French Fries
-🍕 Pizza
-🌭 Hot Dog
-🥪 Sandwich
-🌮 Taco
-🌯 Burrito
-🫔 Tamale
-🥙 Stuffed Flatbread
-🧆 Falafel
-🥚 Egg
-🍳 Cooking
-🥘 Shallow Pan of Food
-🍲 Pot of Food
-🫕 Fondue
-🥣 Bowl with Spoon
-🥗 Green Salad
-🍿 Popcorn
-🧈 Butter
-🧂 Salt
-🥫 Canned Food
-🍱 Bento Box
-🍘 Rice Cracker
-🍙 Rice Ball
-🍚 Cooked Rice
-🍛 Curry Rice
-🍜 Steaming Bowl
-🍝 Spaghetti
-🍠 Roasted Sweet Potato
-🍢 Oden
-🍣 Sushi
-🍤 Fried Shrimp
-🍥 Fish Cake with Swirl
-🥮 Moon Cake
-🍡 Dango
-🥟 Dumpling
-🥠 Fortune Cookie
-🥡 Takeout Box
-🦪 Oyster
-🍦 Soft Ice Cream
-🍧 Shaved Ice
-🍨 Ice Cream
-🍩 Doughnut
-🍪 Cookie
-🎂 Birthday Cake
-🍰 Shortcake
-🧁 Cupcake
-🥧 Pie
-🍫 Chocolate Bar
-🍬 Candy
-🍭 Lollipop
-🍮 Custard
-🍯 Honey Pot
-🍼 Baby Bottle
-🥛 Glass of Milk
-☕ Hot Beverage
-🫖 Teapot
-🍵 Teacup Without Handle
-🍶 Sake
-🍾 Bottle with Popping Cork
-🍷 Wine Glass
-🍸 Cocktail Glass
-🍹 Tropical Drink
-🍺 Beer Mug
-🍻 Clinking Beer Mugs
-🥂 Clinking Glasses
-🥃 Tumbler Glass
-🥤 Cup with Straw
-🧋 Bubble Tea
-🧃 Beverage Box
-🧉 Mate
-🧊 Ice
-🥢 Chopsticks
-🍽️ Fork and Knife with Plate
-🍴 Fork and Knife
-🥄 Spoon
-🕴️ Person in Suit Levitating
-🧗 Person Climbing
-🧗‍♂️ Man Climbing
-🧗‍♀️ Woman Climbing
-🤺 Person Fencing
-🏇 Horse Racing
-⛷️ Skier
-🏂 Snowboarder
-🏌️ Person Golfing
-🏌️‍♂️ Man Golfing
-🏌️‍♀️ Woman Golfing
-🏄 Person Surfing
-🏄‍♂️ Man Surfing
-🏄‍♀️ Woman Surfing
-🚣 Person Rowing Boat
-🚣‍♂️ Man Rowing Boat
-🚣‍♀️ Woman Rowing Boat
-🏊 Person Swimming
-🏊‍♂️ Man Swimming
-🏊‍♀️ Woman Swimming
-⛹️ Person Bouncing Ball
-⛹️‍♂️ Man Bouncing Ball
-⛹️‍♀️ Woman Bouncing Ball
-🏋️ Person Lifting Weights
-🏋️‍♂️ Man Lifting Weights
-🏋️‍♀️ Woman Lifting Weights
-🚴 Person Biking
-🚴‍♂️ Man Biking
-🚴‍♀️ Woman Biking
-🚵 Person Mountain Biking
-🚵‍♂️ Man Mountain Biking
-🚵‍♀️ Woman Mountain Biking
-🤸 Person Cartwheeling
-🤸‍♂️ Man Cartwheeling
-🤸‍♀️ Woman Cartwheeling
-🤼 People Wrestling
-🤼‍♂️ Men Wrestling
-🤼‍♀️ Women Wrestling
-🤽 Person Playing Water Polo
-🤽‍♂️ Man Playing Water Polo
-🤽‍♀️ Woman Playing Water Polo
-🤾 Person Playing Handball
-🤾‍♂️ Man Playing Handball
-🤾‍♀️ Woman Playing Handball
-🤹 Person Juggling
-🤹‍♂️ Man Juggling
-🤹‍♀️ Woman Juggling
-🧘 Person in Lotus Position
-🧘‍♂️ Man in Lotus Position
-🧘‍♀️ Woman in Lotus Position
-🎪 Circus Tent
-🛹 Skateboard
-🛼 Roller Skate
-🛶 Canoe
-🎗️ Reminder Ribbon
-🎟️ Admission Tickets
-🎫 Ticket
-🎖️ Military Medal
-🏆 Trophy
-🏅 Sports Medal
-🥇 1st Place Medal
-🥈 2nd Place Medal
-🥉 3rd Place Medal
-⚽ Soccer Ball
-⚾ Baseball
-🥎 Softball
-🏀 Basketball
+👓 Eyeglasses
+🕶 Dark sunglasses
+🌂 Closed umbrella
+☂️ Umbrella, variation selector-16
+⚽️ Soccer ball, variation selector-16
+🏀 Basketball and hoop
+🏈 American football
+⚾️ Baseball, variation selector-16
+🎾 Tennis racquet and ball
 🏐 Volleyball
-🏈 American Football
-🏉 Rugby Football
-🎾 Tennis
-🥏 Flying Disc
-🎳 Bowling
-🏏 Cricket Game
-🏑 Field Hockey
-🏒 Ice Hockey
-🥍 Lacrosse
-🏓 Ping Pong
-🏸 Badminton
-🥊 Boxing Glove
-🥋 Martial Arts Uniform
-🥅 Goal Net
-⛳ Flag in Hole
-⛸️ Ice Skate
-🎣 Fishing Pole
-🎽 Running Shirt
-🎿 Skis
-🛷 Sled
-🥌 Curling Stone
-🎯 Direct Hit
-🎱 Pool 8 Ball
-🎮 Video Game
-🎰 Slot Machine
-🎲 Game Die
-🧩 Puzzle Piece
-♟️ Chess Pawn
-🎭 Performing Arts
-🎨 Artist Palette
-🧵 Thread
-🧶 Yarn
-🎼 Musical Score
+🏉 Rugby football
+🎱 Billiards
+🏓 Table tennis paddle and ball
+🏸 Badminton racquet and shuttlecock
+🥅 Goal net
+🏒 Ice hockey stick and puck
+🏑 Field hockey stick and ball
+🏏 Cricket bat and ball
+⛳️ Flag in hole, variation selector-16
+🏹 Bow and arrow
+🎣 Fishing pole and fish
+🥊 Boxing glove
+🥋 Martial arts uniform
+⛸ Ice skate
+🎿 Ski and ski boot
+⛷ Skier
+🏂 Snowboarder
+🏋️ Weight lifter, variation selector-16, zero width joiner, female sign, variation selector-16
+🏋️ Weight lifter, variation selector-16
+🤺 Fencer
+🤼 Wrestlers, zero width joiner, female sign, variation selector-16
+🤼 Wrestlers, zero width joiner, male sign, variation selector-16
+🤸 Person doing cartwheel, zero width joiner, female sign, variation selector-16
+🤸 Person doing cartwheel, zero width joiner, male sign, variation selector-16
+⛹️ Person with ball, variation selector-16, zero width joiner, female sign, variation selector-16
+⛹️ Person with ball, variation selector-16
+🤾 Handball, zero width joiner, female sign, variation selector-16
+🤾 Handball, zero width joiner, male sign, variation selector-16
+🏌️ Golfer, variation selector-16, zero width joiner, female sign, variation selector-16
+🏌️ Golfer, variation selector-16
+🏄 Surfer, zero width joiner, female sign, variation selector-16
+🏄 Surfer
+🏊 Swimmer, zero width joiner, female sign, variation selector-16
+🏊 Swimmer
+🤽 Water polo, zero width joiner, female sign, variation selector-16
+🤽 Water polo, zero width joiner, male sign, variation selector-16
+🚣 Rowboat, zero width joiner, female sign, variation selector-16
+🚣 Rowboat
+🏇 Horse racing
+🚴 Bicyclist, zero width joiner, female sign, variation selector-16
+🚴 Bicyclist
+🚵 Mountain bicyclist, zero width joiner, female sign, variation selector-16
+🚵 Mountain bicyclist
+🎽 Running shirt with sash
+🏅 Sports medal
+🎖 Military medal
+🥇 First place medal
+🥈 Second place medal
+🥉 Third place medal
+🏆 Trophy
+🏵 Rosette
+🎗 Reminder ribbon
+🎫 Ticket
+🎟 Admission tickets
+🎪 Circus tent
+🤹 Juggling, zero width joiner, female sign, variation selector-16
+🤹 Juggling, zero width joiner, male sign, variation selector-16
+🎭 Performing arts
+🎨 Artist palette
+🎬 Clapper board
 🎤 Microphone
 🎧 Headphone
+🎼 Musical score
+🎹 Musical keyboard
+🥁 Drum with drumsticks
 🎷 Saxophone
-🪗 Accordion
-🎸 Guitar
-🎹 Musical Keyboard
 🎺 Trumpet
+🎸 Guitar
 🎻 Violin
-🥁 Drum
-🪘 Long Drum
-🎬 Clapper Board
-🏹 Bow and Arrow
-🚣 Person Rowing Boat
-🗾 Map of Japan
-🏔️ Snow-Capped Mountain
-⛰️ Mountain
+🎲 Game die
+🎯 Direct hit
+🎳 Bowling
+🎮 Video game
+🎰 Slot machine
+🚗 Automobile
+🚕 Taxi
+🚙 Recreational vehicle
+🚌 Bus
+🚎 Trolleybus
+🏎 Racing car
+🚓 Police car
+🚑 Ambulance
+🚒 Fire engine
+🚐 Minibus
+🚚 Delivery truck
+🚛 Articulated lorry
+🚜 Tractor
+🛴 Scooter
+🚲 Bicycle
+🛵 Motor scooter
+🏍 Racing motorcycle
+🚨 Police cars revolving light
+🚔 Oncoming police car
+🚍 Oncoming bus
+🚘 Oncoming automobile
+🚖 Oncoming taxi
+🚡 Aerial tramway
+🚠 Mountain cableway
+🚟 Suspension railway
+🚃 Railway car
+🚋 Tram car
+🚞 Mountain railway
+🚝 Monorail
+🚄 High-speed train
+🚅 High-speed train with bullet nose
+🚈 Light rail
+🚂 Steam locomotive
+🚆 Train
+🚇 Metro
+🚊 Tram
+🚉 Station
+🚁 Helicopter
+🛩 Small airplane
+✈️ Airplane, variation selector-16
+🛫 Airplane departure
+🛬 Airplane arriving
+🚀 Rocket
+🛰 Satellite
+💺 Seat
+🛶 Canoe
+⛵️ Sailboat, variation selector-16
+🛥 Motor boat
+🚤 Speedboat
+🛳 Passenger ship
+⛴ Ferry
+🚢 Ship
+⚓️ Anchor, variation selector-16
+🚧 Construction sign
+⛽️ Fuel pump, variation selector-16
+🚏 Bus stop
+🚦 Vertical traffic light
+🚥 Horizontal traffic light
+🗺 World map
+🗿 Moyai
+🗽 Statue of liberty
+⛲️ Fountain, variation selector-16
+🗼 Tokyo tower
+🏰 European castle
+🏯 Japanese castle
+🏟 Stadium
+🎡 Ferris wheel
+🎢 Roller coaster
+🎠 Carousel horse
+⛱ Umbrella on ground
+🏖 Beach with umbrella
+🏝 Desert island
+⛰ Mountain
+🏔 Snow capped mountain
+🗻 Mount fuji
 🌋 Volcano
-🗻 Mount Fuji
-🏕️ Camping
-🏖️ Beach with Umbrella
-🏜️ Desert
-🏝️ Desert Island
-🏞️ National Park
-🏟️ Stadium
-🏛️ Classical Building
-🏗️ Building Construction
-🛖 Hut
-🏘️ Houses
-🏚️ Derelict House
-🏠 House
-🏡 House with Garden
-🏢 Office Building
-🏣 Japanese Post Office
-🏤 Post Office
+🏜 Desert
+🏕 Camping
+⛺️ Tent, variation selector-16
+🛤 Railway track
+🛣 Motorway
+🏗 Building construction
+🏭 Factory
+🏠 House building
+🏡 House with garden
+🏘 House buildings
+🏚 Derelict house building
+🏢 Office building
+🏬 Department store
+🏣 Japanese post office
+🏤 European post office
 🏥 Hospital
 🏦 Bank
 🏨 Hotel
-🏩 Love Hotel
-🏪 Convenience Store
+🏪 Convenience store
 🏫 School
-🏬 Department Store
-🏭 Factory
-🏯 Japanese Castle
-🏰 Castle
+🏩 Love hotel
 💒 Wedding
-🗼 Tokyo Tower
-🗽 Statue of Liberty
-⛪ Church
+🏛 Classical building
+⛪️ Church, variation selector-16
 🕌 Mosque
-🛕 Hindu Temple
 🕍 Synagogue
-⛩️ Shinto Shrine
 🕋 Kaaba
-⛲ Fountain
-⛺ Tent
-🌁 Foggy
-🌃 Night with Stars
-🏙️ Cityscape
-🌄 Sunrise Over Mountains
+⛩ Shinto shrine
+🗾 Silhouette of japan
+🎑 Moon viewing ceremony
+🏞 National park
 🌅 Sunrise
-🌆 Cityscape at Dusk
-🌇 Sunset
-🌉 Bridge at Night
-🎠 Carousel Horse
-🎡 Ferris Wheel
-🎢 Roller Coaster
-🚂 Locomotive
-🚃 Railway Car
-🚄 High-Speed Train
-🚅 Bullet Train
-🚆 Train
-🚇 Metro
-🚈 Light Rail
-🚉 Station
-🚊 Tram
-🚝 Monorail
-🚞 Mountain Railway
-🚋 Tram Car
-🚌 Bus
-🚍 Oncoming Bus
-🚎 Trolleybus
-🚐 Minibus
-🚑 Ambulance
-🚒 Fire Engine
-🚓 Police Car
-🚔 Oncoming Police Car
-🚕 Taxi
-🚖 Oncoming Taxi
-🚗 Automobile
-🚘 Oncoming Automobile
-🚙 Sport Utility Vehicle
-🛻 Pickup Truck
-🚚 Delivery Truck
-🚛 Articulated Lorry
-🚜 Tractor
-🏎️ Racing Car
-🏍️ Motorcycle
-🛵 Motor Scooter
-🛺 Auto Rickshaw
-🚲 Bicycle
-🛴 Kick Scooter
-🚏 Bus Stop
-🛣️ Motorway
-🛤️ Railway Track
-⛽ Fuel Pump
-🚨 Police Car Light
-🚥 Horizontal Traffic Light
-🚦 Vertical Traffic Light
-🚧 Construction
-⚓ Anchor
-⛵ Sailboat
-🚤 Speedboat
-🛳️ Passenger Ship
-⛴️ Ferry
-🛥️ Motor Boat
-🚢 Ship
-✈️ Airplane
-🛩️ Small Airplane
-🛫 Airplane Departure
-🛬 Airplane Arrival
-🪂 Parachute
-💺 Seat
-🚁 Helicopter
-🚟 Suspension Railway
-🚠 Mountain Cableway
-🚡 Aerial Tramway
-🛰️ Satellite
-🚀 Rocket
-🛸 Flying Saucer
-🪐 Ringed Planet
-🌠 Shooting Star
-🌌 Milky Way
-⛱️ Umbrella on Ground
+🌄 Sunrise over mountains
+🌠 Shooting star
+🎇 Firework sparkler
 🎆 Fireworks
-🎇 Sparkler
-🎑 Moon Viewing Ceremony
-💴 Yen Banknote
-💵 Dollar Banknote
-💶 Euro Banknote
-💷 Pound Banknote
-🗿 Moai
-🛂 Passport Control
-🛃 Customs
-🛄 Baggage Claim
-🛅 Left Luggage
-💌 Love Letter
-🕳️ Hole
-💣 Bomb
-🛀 Person Taking Bath
-🛌 Person in Bed
-🔪 Kitchen Knife
-🏺 Amphora
-🗺️ World Map
-🧭 Compass
-🧱 Brick
-💈 Barber Pole
-🦽 Manual Wheelchair
-🦼 Motorized Wheelchair
-🛢️ Oil Drum
-🛎️ Bellhop Bell
-🧳 Luggage
-⌛ Hourglass Done
-⏳ Hourglass Not Done
-⌚ Watch
-⏰ Alarm Clock
-⏱️ Stopwatch
-⏲️ Timer Clock
-🕰️ Mantelpiece Clock
-🌡️ Thermometer
-⛱️ Umbrella on Ground
-🧨 Firecracker
-🎈 Balloon
-🎉 Party Popper
-🎊 Confetti Ball
-🎎 Japanese Dolls
-🎏 Carp Streamer
-🎐 Wind Chime
-🧧 Red Envelope
-🎀 Ribbon
-🎁 Wrapped Gift
-🤿 Diving Mask
-🪀 Yo-Yo
-🪁 Kite
-🔮 Crystal Ball
-🪄 Magic Wand
-🧿 Nazar Amulet
-🕹️ Joystick
-🧸 Teddy Bear
-🪅 Piñata
-🪆 Nesting Dolls
-🖼️ Framed Picture
-🧵 Thread
-🪡 Sewing Needle
-🧶 Yarn
-🪢 Knot
-🛍️ Shopping Bags
-📿 Prayer Beads
-💎 Gem Stone
-📯 Postal Horn
-🎙️ Studio Microphone
-🎚️ Level Slider
-🎛️ Control Knobs
-📻 Radio
-🪕 Banjo
-📱 Mobile Phone
-📲 Mobile Phone with Arrow
-☎️ Telephone
-📞 Telephone Receiver
-📟 Pager
-📠 Fax Machine
-🔋 Battery
-🔌 Electric Plug
-💻 Laptop
-🖥️ Desktop Computer
-🖨️ Printer
-⌨️ Keyboard
-🖱️ Computer Mouse
-🖲️ Trackball
-💽 Computer Disk
-💾 Floppy Disk
-💿 Optical Disk
-📀 DVD
-🧮 Abacus
-🎥 Movie Camera
-🎞️ Film Frames
-📽️ Film Projector
-📺 Television
-📷 Camera
-📸 Camera with Flash
-📹 Video Camera
+🌇 Sunset over buildings
+🌆 Cityscape at dusk
+🏙 Cityscape
+🌃 Night with stars
+🌌 Milky way
+🌉 Bridge at night
+🌁 Foggy
+🐶 Dog face
+🐱 Cat face
+🐭 Mouse face
+🐹 Hamster face
+🐰 Rabbit face
+🦊 Fox face
+🐻 Bear face
+🐼 Panda face
+🐨 Koala
+🐯 Tiger face
+🦁 Lion face
+🐮 Cow face
+🐷 Pig face
+🐽 Pig nose
+🐸 Frog face
+🐵 Monkey face
+🙈 See-no-evil monkey
+🙉 Hear-no-evil monkey
+🙊 Speak-no-evil monkey
+🐒 Monkey
+🐔 Chicken
+🐧 Penguin
+🐦 Bird
+🐤 Baby chick
+🐣 Hatching chick
+🐥 Front-facing baby chick
+🦆 Duck
+🦅 Eagle
+🦉 Owl
+🦇 Bat
+🐺 Wolf face
+🐗 Boar
+🐴 Horse face
+🦄 Unicorn face
+🐝 Honeybee
+🐛 Bug
+🦋 Butterfly
+🐌 Snail
+🐚 Spiral shell
+🐞 Lady beetle
+🐜 Ant
+🕷 Spider
+🕸 Spider web
+🐢 Turtle
+🐍 Snake
+🦎 Lizard
+🦂 Scorpion
+🦀 Crab
+🦑 Squid
+🐙 Octopus
+🦐 Shrimp
+🐠 Tropical fish
+🐟 Fish
+🐡 Blowfish
+🐬 Dolphin
+🦈 Shark
+🐳 Spouting whale
+🐋 Whale
+🐊 Crocodile
+🐆 Leopard
+🐅 Tiger
+🐃 Water buffalo
+🐂 Ox
+🐄 Cow
+🦌 Deer
+🐪 Dromedary camel
+🐫 Bactrian camel
+🐘 Elephant
+🦏 Rhinoceros
+🦍 Gorilla
+🐎 Horse
+🐖 Pig
+🐐 Goat
+🐏 Ram
+🐑 Sheep
+🐕 Dog
+🐩 Poodle
+🐈 Cat
+🐓 Rooster
+🦃 Turkey
+🕊 Dove of peace
+🐇 Rabbit
+🐁 Mouse
+🐀 Rat
+🐿 Chipmunk
+🐾 Paw prints
+🐉 Dragon
+🐲 Dragon face
+🌵 Cactus
+🎄 Christmas tree
+🌲 Evergreen tree
+🌳 Deciduous tree
+🌴 Palm tree
+🌱 Seedling
+🌿 Herb
+☘️ Shamrock, variation selector-16
+🍀 Four leaf clover
+🎍 Pine decoration
+🎋 Tanabata tree
+🍃 Leaf fluttering in wind
+🍂 Fallen leaf
+🍁 Maple leaf
+🍄 Mushroom
+🌾 Ear of rice
+💐 Bouquet
+🌷 Tulip
+🌹 Rose
+🥀 Wilted flower
+🌻 Sunflower
+🌼 Blossom
+🌸 Cherry blossom
+🌺 Hibiscus
+🌎 Earth globe americas
+🌍 Earth globe europe-africa
+🌏 Earth globe asia-australia
+🌕 Full moon symbol
+🌖 Waning gibbous moon symbol
+🌗 Last quarter moon symbol
+🌘 Waning crescent moon symbol
+🌑 New moon symbol
+🌒 Waxing crescent moon symbol
+🌓 First quarter moon symbol
+🌔 Waxing gibbous moon symbol
+🌚 New moon with face
+🌝 Full moon with face
+🌞 Sun with face
+🌛 First quarter moon with face
+🌜 Last quarter moon with face
+🌙 Crescent moon
+💫 Dizzy symbol
+⭐️ White medium star, variation selector-16
+🌟 Glowing star
+✨ Sparkles
+⚡️ High voltage sign, variation selector-16
+🔥 Fire
+💥 Collision symbol
+☄️ Comet, variation selector-16
+☀️ Black sun with rays, variation selector-16
+🌤 White sun with small cloud
+⛅️ Sun behind cloud, variation selector-16
+🌥 White sun behind cloud
+🌦 White sun behind cloud with rain
+🌈 Rainbow
+☁️ Cloud, variation selector-16
+🌧 Cloud with rain
+⛈ Thunder cloud and rain
+🌩 Cloud with lightning
+🌨 Cloud with snow
+☃️ Snowman, variation selector-16
+⛄️ Snowman without snow, variation selector-16
+❄️ Snowflake, variation selector-16
+🌬 Wind blowing face
+💨 Dash symbol
+🌪 Cloud with tornado
+🌫 Fog
+🌊 Water wave
+💧 Droplet
+💦 Splashing sweat symbol
+☔️ Umbrella with rain drops, variation selector-16
+⌚️ Watch, variation selector-16
+📱 Mobile phone
+📲 Mobile phone with rightwards arrow at left
+💻 Personal computer
+⌨️ Keyboard, variation selector-16
+🖥 Desktop computer
+🖨 Printer
+🖱 Three button mouse
+🖲 Trackball
+🕹 Joystick
+🗜 Compression
+💽 Minidisc
+💾 Floppy disk
+💿 Optical disc
+📀 Dvd
 📼 Videocassette
-🔍 Magnifying Glass Tilted Left
-🔎 Magnifying Glass Tilted Right
-🕯️ Candle
-💡 Light Bulb
-🔦 Flashlight
-🏮 Red Paper Lantern
-🪔 Diya Lamp
-📔 Notebook with Decorative Cover
-📕 Closed Book
-📖 Open Book
-📗 Green Book
-📘 Blue Book
-📙 Orange Book
-📚 Books
-📓 Notebook
-📒 Ledger
-📃 Page with Curl
-📜 Scroll
-📄 Page Facing Up
-📰 Newspaper
-🗞️ Rolled-Up Newspaper
-📑 Bookmark Tabs
-🔖 Bookmark
-🏷️ Label
-💰 Money Bag
-🪙 Coin
-💴 Yen Banknote
-💵 Dollar Banknote
-💶 Euro Banknote
-💷 Pound Banknote
-💸 Money with Wings
-💳 Credit Card
-🧾 Receipt
-✉️ Envelope
-📧 E-Mail
-📨 Incoming Envelope
-📩 Envelope with Arrow
-📤 Outbox Tray
-📥 Inbox Tray
-📦 Package
-📫 Closed Mailbox with Raised Flag
-📪 Closed Mailbox with Lowered Flag
-📬 Open Mailbox with Raised Flag
-📭 Open Mailbox with Lowered Flag
-📮 Postbox
-🗳️ Ballot Box with Ballot
-✏️ Pencil
-✒️ Black Nib
-🖋️ Fountain Pen
-🖊️ Pen
-🖌️ Paintbrush
-🖍️ Crayon
-📝 Memo
-📁 File Folder
-📂 Open File Folder
-🗂️ Card Index Dividers
-📅 Calendar
-📆 Tear-Off Calendar
-🗒️ Spiral Notepad
-🗓️ Spiral Calendar
-📇 Card Index
-📈 Chart Increasing
-📉 Chart Decreasing
-📊 Bar Chart
-📋 Clipboard
-📌 Pushpin
-📍 Round Pushpin
-📎 Paperclip
-🖇️ Linked Paperclips
-📏 Straight Ruler
-📐 Triangular Ruler
-✂️ Scissors
-🗃️ Card File Box
-🗄️ File Cabinet
-🗑️ Wastebasket
-🔒 Locked
-🔓 Unlocked
-🔏 Locked with Pen
-🔐 Locked with Key
-🔑 Key
-🗝️ Old Key
-🔨 Hammer
-🪓 Axe
-⛏️ Pick
-⚒️ Hammer and Pick
-🛠️ Hammer and Wrench
-🗡️ Dagger
-⚔️ Crossed Swords
-🔫 Pistol
-🪃 Boomerang
-🛡️ Shield
-🪚 Carpentry Saw
+📷 Camera
+📸 Camera with flash
+📹 Video camera
+🎥 Movie camera
+📽 Film projector
+🎞 Film frames
+📞 Telephone receiver
+☎️ Black telephone, variation selector-16
+📟 Pager
+📠 Fax machine
+📺 Television
+📻 Radio
+🎙 Studio microphone
+🎚 Level slider
+🎛 Control knobs
+⏱ Stopwatch
+⏲ Timer clock
+⏰ Alarm clock
+🕰 Mantelpiece clock
+⌛️ Hourglass, variation selector-16
+⏳ Hourglass with flowing sand
+📡 Satellite antenna
+🔋 Battery
+🔌 Electric plug
+💡 Electric light bulb
+🔦 Electric torch
+🕯 Candle
+🗑 Wastebasket
+🛢 Oil drum
+💸 Money with wings
+💵 Banknote with dollar sign
+💴 Banknote with yen sign
+💶 Banknote with euro sign
+💷 Banknote with pound sign
+💰 Money bag
+💳 Credit card
+💎 Gem stone
+⚖️ Scales, variation selector-16
 🔧 Wrench
-🪛 Screwdriver
-🔩 Nut and Bolt
-⚙️ Gear
-🗜️ Clamp
-⚖️ Balance Scale
-🦯 White Cane
-🔗 Link
-⛓️ Chains
-🪝 Hook
-🧰 Toolbox
-🧲 Magnet
-🪜 Ladder
-⚗️ Alembic
-🧪 Test Tube
-🧫 Petri Dish
-🧬 DNA
-🔬 Microscope
+🔨 Hammer
+⚒ Hammer and pick
+🛠 Hammer and wrench
+⛏ Pick
+🔩 Nut and bolt
+⚙️ Gear, variation selector-16
+⛓ Chains
+🔫 Pistol
+💣 Bomb
+🔪 Hocho
+🗡 Dagger knife
+⚔️ Crossed swords, variation selector-16
+🛡 Shield
+🚬 Smoking symbol
+⚰️ Coffin, variation selector-16
+⚱️ Funeral urn, variation selector-16
+🏺 Amphora
+🔮 Crystal ball
+📿 Prayer beads
+💈 Barber pole
+⚗️ Alembic, variation selector-16
 🔭 Telescope
-📡 Satellite Antenna
-💉 Syringe
-🩸 Drop of Blood
+🔬 Microscope
+🕳 Hole
 💊 Pill
-🩹 Adhesive Bandage
-🩺 Stethoscope
-🚪 Door
-🪞 Mirror
-🪟 Window
-🛏️ Bed
-🛋️ Couch and Lamp
-🪑 Chair
+💉 Syringe
+🌡 Thermometer
 🚽 Toilet
-🪠 Plunger
+🚰 Potable water symbol
 🚿 Shower
 🛁 Bathtub
-🪤 Mouse Trap
-🪒 Razor
-🧴 Lotion Bottle
-🧷 Safety Pin
-🧹 Broom
-🧺 Basket
-🧻 Roll of Paper
-🪣 Bucket
-🧼 Soap
-🪥 Toothbrush
-🧽 Sponge
-🧯 Fire Extinguisher
-🛒 Shopping Cart
-🚬 Cigarette
-⚰️ Coffin
-🪦 Headstone
-⚱️ Funeral Urn
-🗿 Moai
-🪧 Placard
-🚰 Potable Water
-💘 Heart with Arrow
-💝 Heart with Ribbon
-💖 Sparkling Heart
-💗 Growing Heart
-💓 Beating Heart
-💞 Revolving Hearts
-💕 Two Hearts
-💟 Heart Decoration
-❣️ Heart Exclamation
-💔 Broken Heart
-❤️ Red Heart
-🧡 Orange Heart
-💛 Yellow Heart
-💚 Green Heart
-💙 Blue Heart
-💜 Purple Heart
-🤎 Brown Heart
-🖤 Black Heart
-🤍 White Heart
-💯 Hundred Points
-💢 Anger Symbol
-💬 Speech Balloon
-👁️‍🗨️ Eye in Speech Bubble
-🗨️ Left Speech Bubble
-🗯️ Right Anger Bubble
-💭 Thought Balloon
-💤 Zzz
-💮 White Flower
-♨️ Hot Springs
-💈 Barber Pole
-🛑 Stop Sign
-🕛 Twelve O’Clock
-🕧 Twelve-Thirty
-🕐 One O’Clock
-🕜 One-Thirty
-🕑 Two O’Clock
-🕝 Two-Thirty
-🕒 Three O’Clock
-🕞 Three-Thirty
-🕓 Four O’Clock
-🕟 Four-Thirty
-🕔 Five O’Clock
-🕠 Five-Thirty
-🕕 Six O’Clock
-🕡 Six-Thirty
-🕖 Seven O’Clock
-🕢 Seven-Thirty
-🕗 Eight O’Clock
-🕣 Eight-Thirty
-🕘 Nine O’Clock
-🕤 Nine-Thirty
-🕙 Ten O’Clock
-🕥 Ten-Thirty
-🕚 Eleven O’Clock
-🕦 Eleven-Thirty
-🌀 Cyclone
-♠️ Spade Suit
-♥️ Heart Suit
-♦️ Diamond Suit
-♣️ Club Suit
-🃏 Joker
-🀄 Mahjong Red Dragon
-🎴 Flower Playing Cards
-🔇 Muted Speaker
-🔈 Speaker Low Volume
-🔉 Speaker Medium Volume
-🔊 Speaker High Volume
-📢 Loudspeaker
-📣 Megaphone
-📯 Postal Horn
-🔔 Bell
-🔕 Bell with Slash
-🎵 Musical Note
-🎶 Musical Notes
-💹 Chart Increasing with Yen
-🛗 Elevator
-🏧 ATM Sign
-🚮 Litter in Bin Sign
-🚰 Potable Water
-♿ Wheelchair Symbol
-🚹 Men’s Room
-🚺 Women’s Room
-🚻 Restroom
-🚼 Baby Symbol
-🚾 Water Closet
-⚠️ Warning
-🚸 Children Crossing
-⛔ No Entry
-🚫 Prohibited
-🚳 No Bicycles
-🚭 No Smoking
-🚯 No Littering
-🚱 Non-Potable Water
-🚷 No Pedestrians
-📵 No Mobile Phones
-🔞 No One Under Eighteen
-☢️ Radioactive
-☣️ Biohazard
-⬆️ Up Arrow
-↗️ Up-Right Arrow
-➡️ Right Arrow
-↘️ Down-Right Arrow
-⬇️ Down Arrow
-↙️ Down-Left Arrow
-⬅️ Left Arrow
-↖️ Up-Left Arrow
-↕️ Up-Down Arrow
-↔️ Left-Right Arrow
-↩️ Right Arrow Curving Left
-↪️ Left Arrow Curving Right
-⤴️ Right Arrow Curving Up
-⤵️ Right Arrow Curving Down
-🔃 Clockwise Vertical Arrows
-🔄 Counterclockwise Arrows Button
-🔙 Back Arrow
-🔚 End Arrow
-🔛 On! Arrow
-🔜 Soon Arrow
-🔝 Top Arrow
-🛐 Place of Worship
-⚛️ Atom Symbol
-🕉️ Om
-✡️ Star of David
-☸️ Wheel of Dharma
-☯️ Yin Yang
-✝️ Latin Cross
-☦️ Orthodox Cross
-☪️ Star and Crescent
-☮️ Peace Symbol
-🕎 Menorah
-🔯 Dotted Six-Pointed Star
-♈ Aries
-♉ Taurus
-♊ Gemini
-♋ Cancer
-♌ Leo
-♍ Virgo
-♎ Libra
-♏ Scorpio
-♐ Sagittarius
-♑ Capricorn
-♒ Aquarius
-♓ Pisces
+🛀 Bath
+🛎 Bellhop bell
+🔑 Key
+🗝 Old key
+🚪 Door
+🛋 Couch and lamp
+🛏 Bed
+🛌 Sleeping accommodation
+🖼 Frame with picture
+🛍 Shopping bags
+🛒 Shopping trolley
+🎁 Wrapped present
+🎈 Balloon
+🎏 Carp streamer
+🎀 Ribbon
+🎊 Confetti ball
+🎉 Party popper
+🎎 Japanese dolls
+🏮 Izakaya lantern
+🎐 Wind chime
+✉️ Envelope, variation selector-16
+📩 Envelope with downwards arrow above
+📨 Incoming envelope
+📧 E-mail symbol
+💌 Love letter
+📥 Inbox tray
+📤 Outbox tray
+📦 Package
+🏷 Label
+📪 Closed mailbox with lowered flag
+📫 Closed mailbox with raised flag
+📬 Open mailbox with raised flag
+📭 Open mailbox with lowered flag
+📮 Postbox
+📯 Postal horn
+📜 Scroll
+📃 Page with curl
+📄 Page facing up
+📑 Bookmark tabs
+📊 Bar chart
+📈 Chart with upwards trend
+📉 Chart with downwards trend
+🗒 Spiral note pad
+🗓 Spiral calendar pad
+📆 Tear-off calendar
+📅 Calendar
+📇 Card index
+🗃 Card file box
+🗳 Ballot box with ballot
+🗄 File cabinet
+📋 Clipboard
+📁 File folder
+📂 Open file folder
+🗂 Card index dividers
+🗞 Rolled-up newspaper
+📰 Newspaper
+📓 Notebook
+📔 Notebook with decorative cover
+📒 Ledger
+📕 Closed book
+📗 Green book
+📘 Blue book
+📙 Orange book
+📚 Books
+📖 Open book
+🔖 Bookmark
+🔗 Link symbol
+📎 Paperclip
+🖇 Linked paperclips
+📐 Triangular ruler
+📏 Straight ruler
+📌 Pushpin
+📍 Round pushpin
+✂️ Black scissors, variation selector-16
+🖊 Lower left ballpoint pen
+🖋 Lower left fountain pen
+✒️ Black nib, variation selector-16
+🖌 Lower left paintbrush
+🖍 Lower left crayon
+📝 Memo
+✏️ Pencil, variation selector-16
+🔍 Left-pointing magnifying glass
+🔎 Right-pointing magnifying glass
+🔏 Lock with ink pen
+🔐 Closed lock with key
+🔒 Lock
+🔓 Open lock
+🍏 Green apple
+🍎 Red apple
+🍐 Pear
+🍊 Tangerine
+🍋 Lemon
+🍌 Banana
+🍉 Watermelon
+🍇 Grapes
+🍓 Strawberry
+🍈 Melon
+🍒 Cherries
+🍑 Peach
+🍍 Pineapple
+🥝 Kiwifruit
+🥑 Avocado
+🍅 Tomato
+🍆 Aubergine
+🥒 Cucumber
+🥕 Carrot
+🌽 Ear of maize
+🌶 Hot pepper
+🥔 Potato
+🍠 Roasted sweet potato
+🌰 Chestnut
+🥜 Peanuts
+🍯 Honey pot
+🥐 Croissant
+🍞 Bread
+🥖 Baguette bread
+🧀 Cheese wedge
+🥚 Egg
+🍳 Cooking
+🥓 Bacon
+🥞 Pancakes
+🍤 Fried shrimp
+🍗 Poultry leg
+🍖 Meat on bone
+🍕 Slice of pizza
+🌭 Hot dog
+🍔 Hamburger
+🍟 French fries
+🥙 Stuffed flatbread
+🌮 Taco
+🌯 Burrito
+🥗 Green salad
+🥘 Shallow pan of food
+🍝 Spaghetti
+🍜 Steaming bowl
+🍲 Pot of food
+🍥 Fish cake with swirl design
+🍣 Sushi
+🍱 Bento box
+🍛 Curry and rice
+🍚 Cooked rice
+🍙 Rice ball
+🍘 Rice cracker
+🍢 Oden
+🍡 Dango
+🍧 Shaved ice
+🍨 Ice cream
+🍦 Soft ice cream
+🍰 Shortcake
+🎂 Birthday cake
+🍮 Custard
+🍭 Lollipop
+🍬 Candy
+🍫 Chocolate bar
+🍿 Popcorn
+🍩 Doughnut
+🍪 Cookie
+🥛 Glass of milk
+🍼 Baby bottle
+☕️ Hot beverage, variation selector-16
+🍵 Teacup without handle
+🍶 Sake bottle and cup
+🍺 Beer mug
+🍻 Clinking beer mugs
+🥂 Clinking glasses
+🍷 Wine glass
+🥃 Tumbler glass
+🍸 Cocktail glass
+🍹 Tropical drink
+🍾 Bottle with popping cork
+🥄 Spoon
+🍴 Fork and knife
+🍽 Fork and knife with plate
+❤️ Heavy black heart, variation selector-16
+💛 Yellow heart
+💚 Green heart
+💙 Blue heart
+💜 Purple heart
+🖤 Black heart
+💔 Broken heart
+❣️ Heavy heart exclamation mark ornament, variation selector-16
+💕 Two hearts
+💞 Revolving hearts
+💓 Beating heart
+💗 Growing heart
+💖 Sparkling heart
+💘 Heart with arrow
+💝 Heart with ribbon
+💟 Heart decoration
+☮️ Peace symbol, variation selector-16
+✝️ Latin cross, variation selector-16
+☪️ Star and crescent, variation selector-16
+🕉 Om symbol
+☸️ Wheel of dharma, variation selector-16
+✡️ Star of david, variation selector-16
+🔯 Six pointed star with middle dot
+🕎 Menorah with nine branches
+☯️ Yin yang, variation selector-16
+☦️ Orthodox cross, variation selector-16
+🛐 Place of worship
 ⛎ Ophiuchus
-🔀 Shuffle Tracks Button
-🔁 Repeat Button
-🔂 Repeat Single Button
-▶️ Play Button
-⏩ Fast-Forward Button
-⏭️ Next Track Button
-⏯️ Play or Pause Button
-◀️ Reverse Button
-⏪ Fast Reverse Button
-⏮️ Last Track Button
-🔼 Upwards Button
-⏫ Fast Up Button
-🔽 Downwards Button
-⏬ Fast Down Button
-⏸️ Pause Button
-⏹️ Stop Button
-⏺️ Record Button
-⏏️ Eject Button
+♈️ Aries, variation selector-16
+♉️ Taurus, variation selector-16
+♊️ Gemini, variation selector-16
+♋️ Cancer, variation selector-16
+♌️ Leo, variation selector-16
+♍️ Virgo, variation selector-16
+♎️ Libra, variation selector-16
+♏️ Scorpius, variation selector-16
+♐️ Sagittarius, variation selector-16
+♑️ Capricorn, variation selector-16
+♒️ Aquarius, variation selector-16
+♓️ Pisces, variation selector-16
+🆔 Squared id
+⚛️ Atom symbol, variation selector-16
+🉑 Circled ideograph accept
+☢️ Radioactive sign, variation selector-16
+☣️ Biohazard sign, variation selector-16
+📴 Mobile phone off
+📳 Vibration mode
+🈶 Squared cjk unified ideograph-6709
+🈚️ Squared cjk unified ideograph-7121, variation selector-16
+🈸 Squared cjk unified ideograph-7533
+🈺 Squared cjk unified ideograph-55b6
+🈷️ Squared cjk unified ideograph-6708, variation selector-16
+✴️ Eight pointed black star, variation selector-16
+🆚 Squared vs
+💮 White flower
+🉐 Circled ideograph advantage
+㊙️ Circled ideograph secret, variation selector-16
+㊗️ Circled ideograph congratulation, variation selector-16
+🈴 Squared cjk unified ideograph-5408
+🈵 Squared cjk unified ideograph-6e80
+🈹 Squared cjk unified ideograph-5272
+🈲 Squared cjk unified ideograph-7981
+🅰️ Negative squared latin capital letter a, variation selector-16
+🅱️ Negative squared latin capital letter b, variation selector-16
+🆎 Negative squared ab
+🆑 Squared cl
+🅾️ Negative squared latin capital letter o, variation selector-16
+🆘 Squared sos
+❌ Cross mark
+⭕️ Heavy large circle, variation selector-16
+🛑 Octagonal sign
+⛔️ No entry, variation selector-16
+📛 Name badge
+🚫 No entry sign
+💯 Hundred points symbol
+💢 Anger symbol
+♨️ Hot springs, variation selector-16
+🚷 No pedestrians
+🚯 Do not litter symbol
+🚳 No bicycles
+🚱 Non-potable water symbol
+🔞 No one under eighteen symbol
+📵 No mobile phones
+🚭 No smoking symbol
+❗️ Heavy exclamation mark symbol, variation selector-16
+❕ White exclamation mark ornament
+❓ Black question mark ornament
+❔ White question mark ornament
+‼️ Double exclamation mark, variation selector-16
+⁉️ Exclamation question mark, variation selector-16
+🔅 Low brightness symbol
+🔆 High brightness symbol
+〽️ Part alternation mark, variation selector-16
+⚠️ Warning sign, variation selector-16
+🚸 Children crossing
+🔱 Trident emblem
+⚜️ Fleur-de-lis, variation selector-16
+🔰 Japanese symbol for beginner
+♻️ Black universal recycling symbol, variation selector-16
+✅ White heavy check mark
+🈯️ Squared cjk unified ideograph-6307, variation selector-16
+💹 Chart with upwards trend and yen sign
+❇️ Sparkle, variation selector-16
+✳️ Eight spoked asterisk, variation selector-16
+❎ Negative squared cross mark
+🌐 Globe with meridians
+💠 Diamond shape with a dot inside
+Ⓜ️ Circled latin capital letter m, variation selector-16
+🌀 Cyclone
+💤 Sleeping symbol
+🏧 Automated teller machine
+🚾 Water closet
+♿️ Wheelchair symbol, variation selector-16
+🅿️ Negative squared latin capital letter p, variation selector-16
+🈳 Squared cjk unified ideograph-7a7a
+🈂️ Squared katakana sa, variation selector-16
+🛂 Passport control
+🛃 Customs
+🛄 Baggage claim
+🛅 Left luggage
+🚹 Mens symbol
+🚺 Womens symbol
+🚼 Baby symbol
+🚻 Restroom
+🚮 Put litter in its place symbol
 🎦 Cinema
-🔅 Dim Button
-🔆 Bright Button
-📶 Antenna Bars
-📳 Vibration Mode
-📴 Mobile Phone Off
-♀️ Female Sign
-♂️ Male Sign
-✖️ Multiply
-➕ Plus
-➖ Minus
-➗ Divide
-♾️ Infinity
-‼️ Double Exclamation Mark
-⁉️ Exclamation Question Mark
-❓ Question Mark
-❔ White Question Mark
-❕ White Exclamation Mark
-❗ Exclamation Mark
-〰️ Wavy Dash
-💱 Currency Exchange
-💲 Heavy Dollar Sign
-⚕️ Medical Symbol
-♻️ Recycling Symbol
-⚜️ Fleur-de-lis
-🔱 Trident Emblem
-📛 Name Badge
-🔰 Japanese Symbol for Beginner
-⭕ Hollow Red Circle
-✅ Check Mark Button
-☑️ Check Box with Check
-✔️ Check Mark
-❌ Cross Mark
-❎ Cross Mark Button
-➰ Curly Loop
-➿ Double Curly Loop
-〽️ Part Alternation Mark
-✳️ Eight-Spoked Asterisk
-✴️ Eight-Pointed Star
-❇️ Sparkle
-©️ Copyright
-®️ Registered
-™️ Trade Mark
-#️⃣ Keycap Number Sign
-*️⃣ Keycap Asterisk
-0️⃣ Keycap Digit Zero
-1️⃣ Keycap Digit One
-2️⃣ Keycap Digit Two
-3️⃣ Keycap Digit Three
-4️⃣ Keycap Digit Four
-5️⃣ Keycap Digit Five
-6️⃣ Keycap Digit Six
-7️⃣ Keycap Digit Seven
-8️⃣ Keycap Digit Eight
-9️⃣ Keycap Digit Nine
-🔟 Keycap: 10
-🔠 Input Latin Uppercase
-🔡 Input Latin Lowercase
-🔢 Input Numbers
-🔣 Input Symbols
-🔤 Input Latin Letters
-🅰️ A Button (Blood Type)
-🆎 AB Button (Blood Type)
-🅱️ B Button (Blood Type)
-🆑 CL Button
-🆒 Cool Button
-🆓 Free Button
-ℹ️ Information
-🆔 ID Button
-Ⓜ️ Circled M
-🆕 New Button
-🆖 NG Button
-🅾️ O Button (Blood Type)
-🆗 OK Button
-🅿️ P Button
-🆘 SOS Button
-🆙 Up! Button
-🆚 Vs Button
-🈁 Japanese “Here” Button
-🈂️ Japanese “Service Charge” Button
-🈷️ Japanese “Monthly Amount” Button
-🈶 Japanese “Not Free of Charge” Button
-🈯 Japanese “Reserved” Button
-🉐 Japanese “Bargain” Button
-🈹 Japanese “Discount” Button
-🈚 Japanese “Free of Charge” Button
-🈲 Japanese “Prohibited” Button
-🉑 Japanese “Acceptable” Button
-🈸 Japanese “Application” Button
-🈴 Japanese “Passing Grade” Button
-🈳 Japanese “Vacancy” Button
-㊗️ Japanese “Congratulations” Button
-㊙️ Japanese “Secret” Button
-🈺 Japanese “Open for Business” Button
-🈵 Japanese “No Vacancy” Button
-🔴 Red Circle
-🟠 Orange Circle
-🟡 Yellow Circle
-🟢 Green Circle
-🔵 Blue Circle
-🟣 Purple Circle
-🟤 Brown Circle
-⚫ Black Circle
-⚪ White Circle
-🟥 Red Square
-🟧 Orange Square
-🟨 Yellow Square
-🟩 Green Square
-🟦 Blue Square
-🟪 Purple Square
-🟫 Brown Square
-⬛ Black Large Square
-⬜ White Large Square
-◼️ Black Medium Square
-◻️ White Medium Square
-◾ Black Medium-Small Square
-◽ White Medium-Small Square
-▪️ Black Small Square
-▫️ White Small Square
-🔶 Large Orange Diamond
-🔷 Large Blue Diamond
-🔸 Small Orange Diamond
-🔹 Small Blue Diamond
-🔺 Red Triangle Pointed Up
-🔻 Red Triangle Pointed Down
-💠 Diamond with a Dot
-🔘 Radio Button
-🔳 White Square Button
-🔲 Black Square Button
-❤️‍🔥 Heart on Fire
-❤️‍🩹 Mending Heart
-🏁 Chequered Flag
-🚩 Triangular Flag
-🎌 Crossed Flags
-🏴 Black Flag
-🏳️ White Flag
-🏳️‍🌈 Rainbow Flag
-🏳️‍⚧️ Transgender Flag
-🏴‍☠️ Pirate Flag
+📶 Antenna with bars
+🈁 Squared katakana koko
+🔣 Input symbol for symbols
+ℹ️ Information source, variation selector-16
+🔤 Input symbol for latin letters
+🔡 Input symbol for latin small letters
+🔠 Input symbol for latin capital letters
+🆖 Squared ng
+🆗 Squared ok
+🆙 Squared up with exclamation mark
+🆒 Squared cool
+🆕 Squared new
+🆓 Squared free
+🔟 Keycap ten
+🔢 Input symbol for numbers
+▶️ Black right-pointing triangle, variation selector-16
+⏸ Double vertical bar
+⏯ Black right-pointing triangle with double vertical bar
+⏹ Black square for stop
+⏺ Black circle for record
+⏭ Black right-pointing double triangle with vertical bar
+⏮ Black left-pointing double triangle with vertical bar
+⏩ Black right-pointing double triangle
+⏪ Black left-pointing double triangle
+⏫ Black up-pointing double triangle
+⏬ Black down-pointing double triangle
+◀️ Black left-pointing triangle, variation selector-16
+🔼 Up-pointing small red triangle
+🔽 Down-pointing small red triangle
+➡️ Black rightwards arrow, variation selector-16
+⬅️ Leftwards black arrow, variation selector-16
+⬆️ Upwards black arrow, variation selector-16
+⬇️ Downwards black arrow, variation selector-16
+↗️ North east arrow, variation selector-16
+↘️ South east arrow, variation selector-16
+↙️ South west arrow, variation selector-16
+↖️ North west arrow, variation selector-16
+↕️ Up down arrow, variation selector-16
+↔️ Left right arrow, variation selector-16
+↪️ Rightwards arrow with hook, variation selector-16
+↩️ Leftwards arrow with hook, variation selector-16
+⤴️ Arrow pointing rightwards then curving upwards, variation selector-16
+⤵️ Arrow pointing rightwards then curving downwards, variation selector-16
+🔀 Twisted rightwards arrows
+🔁 Clockwise rightwards and leftwards open circle arrows
+🔂 Clockwise rightwards and leftwards open circle arrows with circled one overlay
+🔄 Anticlockwise downwards and upwards open circle arrows
+🔃 Clockwise downwards and upwards open circle arrows
+🎵 Musical note
+🎶 Multiple musical notes
+➕ Heavy plus sign
+➖ Heavy minus sign
+➗ Heavy division sign
+✖️ Heavy multiplication x, variation selector-16
+💲 Heavy dollar sign
+💱 Currency exchange
+™️ Trade mark sign, variation selector-16
+©️ Copyright sign, variation selector-16
+®️ Registered sign, variation selector-16
+〰️ Wavy dash, variation selector-16
+➰ Curly loop
+➿ Double curly loop
+🔚 End with leftwards arrow above
+🔙 Back with leftwards arrow above
+🔛 On with exclamation mark with left right arrow above
+🔝 Top with upwards arrow above
+🔜 Soon with rightwards arrow above
+✔️ Heavy check mark, variation selector-16
+☑️ Ballot box with check, variation selector-16
+🔘 Radio button
+⚪️ Medium white circle, variation selector-16
+⚫️ Medium black circle, variation selector-16
+🔴 Large red circle
+🔵 Large blue circle
+🔺 Up-pointing red triangle
+🔻 Down-pointing red triangle
+🔸 Small orange diamond
+🔹 Small blue diamond
+🔶 Large orange diamond
+🔷 Large blue diamond
+🔳 White square button
+🔲 Black square button
+▪️ Black small square, variation selector-16
+▫️ White small square, variation selector-16
+◾️ Black medium small square, variation selector-16
+◽️ White medium small square, variation selector-16
+◼️ Black medium square, variation selector-16
+◻️ White medium square, variation selector-16
+⬛️ Black large square, variation selector-16
+⬜️ White large square, variation selector-16
+🔈 Speaker
+🔇 Speaker with cancellation stroke
+🔉 Speaker with one sound wave
+🔊 Speaker with three sound waves
+🔔 Bell
+🔕 Bell with cancellation stroke
+📣 Cheering megaphone
+📢 Public address loudspeaker
+👁 Eye, zero width joiner, left speech bubble
+💬 Speech balloon
+💭 Thought balloon
+🗯 Right anger bubble
+♠️ Black spade suit, variation selector-16
+♣️ Black club suit, variation selector-16
+♥️ Black heart suit, variation selector-16
+♦️ Black diamond suit, variation selector-16
+🃏 Playing card black joker
+🎴 Flower playing cards
+🀄️ Mahjong tile red dragon, variation selector-16
+🕐 Clock face one oclock
+🕑 Clock face two oclock
+🕒 Clock face three oclock
+🕓 Clock face four oclock
+🕔 Clock face five oclock
+🕕 Clock face six oclock
+🕖 Clock face seven oclock
+🕗 Clock face eight oclock
+🕘 Clock face nine oclock
+🕙 Clock face ten oclock
+🕚 Clock face eleven oclock
+🕛 Clock face twelve oclock
+🕜 Clock face one-thirty
+🕝 Clock face two-thirty
+🕞 Clock face three-thirty
+🕟 Clock face four-thirty
+🕠 Clock face five-thirty
+🕡 Clock face six-thirty
+🕢 Clock face seven-thirty
+🕣 Clock face eight-thirty
+🕤 Clock face nine-thirty
+🕥 Clock face ten-thirty
+🕦 Clock face eleven-thirty
+🕧 Clock face twelve-thirty
+🏳️ Waving white flag, variation selector-16
+🏴 Waving black flag
+🏁 Chequered flag
+🚩 Triangular flag on post

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sed '0,/^data$/d' "$0" | dmenu -i | cut -d " " -f1 | tr "\n" " " | wl-copy
+sed '0,/^data$/d' "$0" | dmenu | cut -d " " -f1 | tr "\n" " " | wl-copy
 
 exit
 
